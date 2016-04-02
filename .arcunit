@@ -1,0 +1,7 @@
+{
+  "engines": {
+    "jest": {
+      "type": "jest"
+    }
+  }
+}

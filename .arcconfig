@@ -1,0 +1,8 @@
+{
+  "phabricator.uri" : "http://dev.hagmajer.com/",
+  "repository.callsign": "EDARC",
+  "load": [
+    "src"
+  ],
+  "unit.engine": "ArcanistConfigurationDrivenUnitTestEngine"
+}
