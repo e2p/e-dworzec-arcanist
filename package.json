@@ -1,0 +1,15 @@
+{
+  "name": "e-dworzec-arcanist",
+  "version": "1.0.0",
+  "description": "Arcanist plugins used at e-dworzec",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-dworzec/e-dworzec-arcanist.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/e-dworzec/e-dworzec-arcanist/issues"
+  },
+  "homepage": "https://github.com/e-dworzec/e-dworzec-arcanist#readme"
+}
