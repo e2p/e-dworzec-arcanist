@@ -45,9 +45,9 @@ final class ArcanistESLintLinter extends ArcanistExternalLinter {
     foreach ($result[0]['messages'] as $msg) {
       $message = new ArcanistLintMessage();
       $message->setPath($path);
-      $message->setLine($msg['line']);
-      $message->setChar($msg['column']);
-      $message->setCode($msg['ruleId']);
+      $message->setLine(@$msg['line']);
+      $message->setChar(@$msg['column']);
+      $message->setCode(@$msg['ruleId']);
       $message->setName($msg['message']." (eslint)");
       $message->setSeverity(
         $msg['severity'] === '1'
