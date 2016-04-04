@@ -50,7 +50,7 @@ final class ArcanistESLintLinter extends ArcanistExternalLinter {
       $message->setCode(@$msg['ruleId']);
       $message->setName($msg['message']." (eslint)");
       $message->setSeverity(
-        $msg['severity'] === '1'
+        $msg['severity'] == '1'
           ? ArcanistLintSeverity::SEVERITY_WARNING
           : ArcanistLintSeverity::SEVERITY_ERROR);
 
